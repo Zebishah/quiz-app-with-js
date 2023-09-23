@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/01a0d749c5.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="quizapp.css" />
+</head>
+
+<body>
+    <section class="main">
+
+        <div class="container">
+            <div class="col">
+                <h3 id="questionBox">
+                    1) Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+                </h3>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="first" value="a" class="options" required>
+                <label for="first">Testing 1</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" value="b" class="options"required>
+                <label for="second">Testing 2</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" value="c" class="options"required>
+                <label for="third">Testing 3</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" value="d" class="options"required>
+                <label for="fourth">Testing 4</label>
+            </div>
+            <button id="submit">Submit</button>
+            <p class="error"></p>
+            <button id="next">Next Que</button>
+        </div>
+        <div class="container2">
+            <div class="icons">
+        <i class="fa-solid fa-circle-check fa-beat " style="color: #44ff00;" id="green"></i>
+        <i class="fa-sharp fa-solid fa-circle-xmark fa-beat " style="color: #ff0000;" id="red" ></i>
+    </div>
+        <h2 class="res-title"></h2>
+        <h3 class="numbers"> </h3>
+        <p>Thanks for using our app</p>
+       <button id="back" >Go back to Quiz</button>
+        </div>
+    </section>
+    <script src="quizapp.js"></script>
+    <script src="quizres.js"></script>
+</body>
+
+</html>
